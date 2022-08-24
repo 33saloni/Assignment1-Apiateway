@@ -1,0 +1,12 @@
+
+spring:
+  profiles:
+    active:
+    - gateway
+    
+  config:
+    import:
+    - configserver:http://localhost:8888        
+  
+
+#- optional:configserver:http://localhost:8888
